@@ -1,0 +1,42 @@
+# Project
+.idea/
+.github/
+.flake8
+.*ignore
+.isort.cfg
+Makefile
+README.md
+
+# Cache
+*.py[cod]
+__pycache__
+
+# Texts
+*.mo
+
+# Environment
+.env*
+
+# Docker
+docker-compose*.yml
+Dockerfile
+
+# Version control and local runtime data must not enter build context
+.git
+.venv
+venv
+env
+data
+pgdata
+redis_data
+grafana-data
+*.log
+*.sql
+*.sql.gz
+*.dump
+*.db
+*.sqlite*
+*.pem
+*.key
+*.p12
+*.pfx

@@ -1,0 +1,50 @@
+# Cache files
+__pycache__/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Config files
+config/*.yml
+config/*.yaml
+
+# Editor-specified files
+.vscode/
+.idea/
+
+# certificates
+*.pem
+
+# Local secrets (keep the documented example)
+.env.*
+!.env.sample
+*.key
+*.p12
+*.pfx
+
+# Runtime state, private user data and service credentials
+/data/
+/pgdata/
+/redis_data/
+/grafana-data/
+*.log
+*.sql
+*.sql.gz
+*.dump
+*.sqlite
+*.sqlite3
+*.db
+
+# Python tooling
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+dist/
+build/
+*.egg-info/

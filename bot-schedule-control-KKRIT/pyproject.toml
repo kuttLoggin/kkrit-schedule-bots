@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "bot-schedule-control-KKRIT"
+version = "0.2.0"
+description = "Telegram bot and internal API for managing KKRIT schedules"
+authors = ["He"]
+license = "MIT"
+repository = "https://github.com/kuttLoggin/kkrit-schedule-bots/tree/main/bot-schedule-control-KKRIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+environs = "^9.3.4"
+betterlogging = "0.2.1"
+aiofile = "^3.7.2"
+aiogram = "3.0.0b6"
+aiohttp = {extras = ["speedups"], version = "^3.8.1"}
+aiolimiter = "^1.0.0"
+arrow = "^1.2.2"
+python-docx = "^0.8.11"
+pdf2docx = "^0.5.6"
+Pillow = "10.0.0"
+Jinja2 = "3.1.2"
+html2image = "2.0.4.3"
+openpyxl = "^3.1.0"
+opencv-contrib-python-headless = "^4.7.0.68"
+fluentogram = "^1.1.2"
+SQLAlchemy = "^1.4.39"
+asyncpg = "^0.27.0"
+APScheduler = "^3.9.1"
+apscheduler-di = "^0.1.0"
+aioredis = "^2.0.1"
+redis = "^4.3.4"
+pdfplumber = "^0.10.2"
+cloudconvert = "^2.1.0"
+
+[tool.poetry.dev-dependencies]
+black = "^23.1.0"
+sqlalchemy-stubs = "^0.4"
+# sqlalchemy2-stubs = "^0.0.2a21"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

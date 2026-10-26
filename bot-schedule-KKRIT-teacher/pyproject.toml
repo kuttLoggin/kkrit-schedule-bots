@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "schedule_kkrut_teacher"
+version = "0.2.1"
+description = "Telegram bot for teacher schedules at KKRIT"
+authors = ["He"]
+license = "MIT"
+repository = "https://github.com/kuttLoggin/kkrit-schedule-bots/tree/main/bot-schedule-KKRIT-teacher"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+environs = "^9.3.4"
+betterlogging = "0.1.0"
+aiofile = "^3.7.2"
+aiohttp = {extras = ["speedups"], version = "^3.8.3"}
+aiogram = "3.0.0b4"
+aiolimiter = "^1.0.0"
+arrow = "^1.2.3"
+tabula-py = "^2.5.1"
+fluentogram = "^1.0.28"
+SQLAlchemy = "^1.4.39"
+asyncpg = "^0.26.0"
+APScheduler = "^3.9.1"
+apscheduler-di = "^0.0.6"
+aioredis = "^2.0.1"
+redis = "^4.3.4"
+
+[tool.poetry.dev-dependencies]
+black = "^22.3.0"
+sqlalchemy-stubs = "^0.4"
+# sqlalchemy2-stubs = "^0.0.2a21"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

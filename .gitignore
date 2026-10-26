@@ -1,0 +1,42 @@
+# Secrets and local configuration, at any depth
+.env
+.env.*
+!.env.sample
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Runtime data and private documents
+data/
+pgdata/
+redis_data/
+grafana-data/
+*.log
+*.sql
+*.sql.gz
+*.dump
+*.sqlite
+*.sqlite3
+*.db
+
+# Python and editors
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+build/
+dist/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local Git backups
+*.bundle
